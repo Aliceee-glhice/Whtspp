@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Link Page</title>
+
+<style>
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* BACKGROUND WRAPPER */
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  display: flex;
+  z-index: -1;
+  transition: transform 1s ease;
+}
+
+#bg img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* FOTO */
+.profile img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid #eee;
+  margin-top: 120px;
+}
+
+/* JUDUL */
+.title {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 10px #ff69b4;
+  animation: gerakJudul 2s infinite alternate;
+}
+
+@keyframes gerakJudul {
+  from { transform: translateX(-10px); }
+  to { transform: translateX(10px); }
+}
+
+/* LINK */
+.links {
+  margin-top: 120px;
+}
+
+.link-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 30px;
+  width: 85%;
+  text-decoration: none;
+  color: black;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left img {
+  width: 28px;
+}
+
+/* ANIMASI */
+.wa { animation: kiriKanan 2s infinite; }
+.telegram { animation: atasBawah 2s infinite; }
+
+@keyframes kiriKanan {
+  50% { transform: translateX(8px); }
+}
+
+@keyframes atasBawah {
+  50% { transform: translateY(8px); }
+}
+</style>
+</head>
+
+<body>
+
+<!-- BACKGROUND -->
+<div id="bg">
+  <img id="bg1">
+  <img id="bg2">
+</div>
+
+<!-- FOTO -->
+<div class="profile">
+  <img id="profile-img">
+</div>
+
+<!-- JUDUL -->
+<div class="title" id="judul"></div>
+
+<!-- LINK -->
+<div class="links" id="links"></div>
+
+<script src="config.js"></script>
+</body>
+</html>
