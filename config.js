@@ -48,7 +48,7 @@ function showUser() {
 setInterval(showUser, 3000);
 
 // BACKGROUND SLIDE
-const images = ["https://images2.imgbox.com/bd/24/zaHRTHiG_o.jpg", "https://images2.imgbox.com/5a/c5/sKWeOOOC_o.jpg"];
+const images = ["https://images2.imgbox.com/bd/24/zaHRTHiG_o.jpg", "https://images2.imgbox.com/06/4d/VCccRAda_o.jpg"];
 let index = 0;
 
 const bg1 = document.getElementById("bg1");
