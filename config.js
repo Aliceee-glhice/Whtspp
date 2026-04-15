@@ -1,5 +1,5 @@
 // FOTO PROFIL
-document.getElementById("profile-img").src = "https://images2.imgbox.com/5a/4e/WMmcbWOe_o.jpg";
+document.getElementById("profile-img").src = "https://images2.imgbox.com/06/a2/lb8rzL79_o.jpg";
 
 // JUDUL
 document.getElementById("judul").innerText = "Join....❣️";
