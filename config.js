@@ -1,5 +1,5 @@
 // FOTO PROFIL
-document.getElementById("profile-img").src = "https://images2.imgbox.com/e3/f1/spmxqJyh_o.jpg";
+document.getElementById("profile-img").src = "https://images2.imgbox.com/df/8d/R3Tx6BYc_o.jpg";
 
 // JUDUL
 document.getElementById("judul").innerText = "Join....❣️";
@@ -48,7 +48,7 @@ function showUser() {
 setInterval(showUser, 3000);
 
 // BACKGROUND SLIDE
-const images = ["https://images2.imgbox.com/bd/24/zaHRTHiG_o.jpg", "https://images2.imgbox.com/06/4d/VCccRAda_o.jpg"];
+const images = ["https://images2.imgbox.com/c0/df/5RGoMY5T_o.jpg", "https://images2.imgbox.com/42/75/aAABiPaI_o.jpg"];
 let index = 0;
 
 const bg1 = document.getElementById("bg1");
