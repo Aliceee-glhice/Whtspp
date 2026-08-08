@@ -1,5 +1,5 @@
 // FOTO PROFIL
-document.getElementById("profile-img").src = "https://cdn.phototourl.com/free/2026-08-08-3381d3b5-bb1e-43bc-bd2c-29c6515a72c7.jpg";
+document.getElementById("profile-img").src = "https://cdn.phototourl.com/free/2026-08-08-ba90c380-f090-4749-8793-24a4ba92911a.jpg";
 
 // JUDUL
 document.getElementById("judul").innerText = "Join....❣️";
@@ -48,7 +48,7 @@ function showUser() {
 setInterval(showUser, 3000);
 
 // BACKGROUND SLIDE
-const images = ["https://cdn.phototourl.com/free/2026-08-08-71ccc158-df12-4984-9d52-a4b09dfcb9be.jpg", "https://cdn.phototourl.com/free/2026-08-08-71ccc158-df12-4984-9d52-a4b09dfcb9be.jpg"];
+const images = ["https://cdn.phototourl.com/free/2026-08-08-f372ddb2-25dd-4aed-a2ca-1d4641723637.jpg", "https://cdn.phototourl.com/free/2026-08-08-f372ddb2-25dd-4aed-a2ca-1d4641723637.jpg"];
 let index = 0;
 
 const bg1 = document.getElementById("bg1");
