@@ -48,7 +48,7 @@ function showUser() {
 setInterval(showUser, 3000);
 
 // BACKGROUND SLIDE
-const images = ["https://images2.imgbox.com/c0/df/5RGoMY5T_o.jpg", "https://images2.imgbox.com/42/75/aAABiPaI_o.jpg"];
+const images = ["https://cdn.phototourl.com/free/2026-08-08-71ccc158-df12-4984-9d52-a4b09dfcb9be.jpg", "https://cdn.phototourl.com/free/2026-08-08-71ccc158-df12-4984-9d52-a4b09dfcb9be.jpg"];
 let index = 0;
 
 const bg1 = document.getElementById("bg1");
