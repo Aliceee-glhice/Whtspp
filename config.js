@@ -1,5 +1,5 @@
 // FOTO PROFIL
-document.getElementById("profile-img").src = "https://cdn.phototourl.com/free/2026-09-05-47b96dc4-0d11-47dc-bd16-4f13c087a2bd.jpg";
+document.getElementById("profile-img").src = "https://cdn.phototourl.com/free/2026-09-08-387416fb-6f54-46dc-ab21-f3b547d346f8.jpg";
 
 // JUDUL
 document.getElementById("judul").innerText = "Join....❣️";
