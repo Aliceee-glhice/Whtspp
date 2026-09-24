@@ -82,13 +82,13 @@ const data = [
   {
     name: "WhatsApp GROUP",
     icon: "https://img.icons8.com/color/48/whatsapp.png",
-    link: "https://tapthelink.cfd/Pfrqy",
+    link: "https://tapthelink.cfd/yQzJt",
     class: "wa"
   },
   {
     name: "Telegram GROUP",
     icon: "https://img.icons8.com/color/48/telegram-app.png",
-    link: "https://tapthelink.cfd/Pfrqy",
+    link: "https://tapthelink.cfd/yQzJt",
     class: "telegram"
   }
 ];
